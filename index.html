@@ -23,14 +23,14 @@
             <img src="/Assets/logo.svg" />
           </div>
           <!-- Links -->
-          <ul class="flex gap-6 text-[#2B1B12]">
+          <ul class="hidden lg:flex gap-6 text-[#2B1B12]">
             <li>Home</li>
             <li>Service</li>
             <li>Agents</li>
             <li>Contact</li>
           </ul>
           <!-- Buttons -->
-          <div class="flex gap-6">
+          <div class="flex lg:gap-6 gap-2">
             <img src="/Assets/search.svg" />
             <img src="/Assets/user.svg" />
             <button
@@ -44,9 +44,9 @@
       <!-- Hero -->
       <main class="bg-[#FBF5F1] p-10">
         <!-- Texts and image -->
-        <section class="flex justify-between">
+        <section class="lg:flex justify-between">
           <!-- Texts -->
-          <div class="flex flex-col gap-5 mt-[12rem]">
+          <div class="flex flex-col gap-5 lg:mt-[12rem]">
             <h1 class="font-bold text-5xl text-[#2B1B12]">
               Find Your <br />
               Dream Home
@@ -69,7 +69,7 @@
         </section>
         <!-- Preference -->
         <div
-          class="bg-[#DDC7BB] flex justify-around w-[70%] items-center rounded-xl p-8 absolute mx-[10rem]"
+          class="bg-[#DDC7BB] hidden lg:flex justify-around w-[70%] items-center rounded-xl p-8 absolute mx-[10rem]"
         >
           <!-- Location -->
           <button
@@ -101,13 +101,13 @@
       </main>
     </section>
     <!-- Next section -->
-    <section class="bg-white flex gap-[10rem] mt-[5rem] p-10">
+    <section class="bg-white lg:flex gap-[10rem] lg:mt-[5rem] p-10">
       <!-- Img -->
-      <div class="w-[40%]">
+      <div class="lg:w-[40%]">
         <img src="/Assets/Mask group.svg" />
       </div>
       <!-- Texts -->
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-6 mt-5">
         <h1 class="font-bold text-4xl text-[#2B1B12]">
           We Help You To Find <br />
           Your Dream Home
@@ -147,7 +147,7 @@
         </p>
       </div>
       <!-- Cards -->
-      <div class="flex gap-[5rem]">
+      <div class="flex flex-col lg:flex-row gap-1 lg:gap-[3rem]">
         <!-- Card 1 -->
         <div class="bg-[#DDC7BB] rounded-xl">
           <!-- container -->
@@ -217,5 +217,125 @@
         </div>
       </div>
     </section>
+    <!-- Popular Residences -->
+    <section class="p-10">
+      <h1 class="font-['Montserrat'] font-bold text-3xl text-center">Our Popular Residences</h1>
+      <!-- All cards -->
+    <div class="flex flex-col lg:flex-row gap-3 mt-5 justify-center">
+      <!-- Card 1 -->
+      <div class="lg:w-[25%]">
+        <!-- img -->
+        <div>
+          <img src="/Assets/San-Francisco.svg" alt="San-Francisco" />
+        </div>
+        <!-- info -->
+        <div class="bg-[#DDC7BB] flex flex-col gap-4 p-4">
+          <!-- location -->
+          <div class="flex items-center gap-2">
+            <img src="/Assets/pin.svg"/>
+            <p class="font-['Montserrat'] font-bold text-[#2B1B12]">San Francisco, California</p>
+          </div>
+          <!-- Room size -->
+          <div class="flex gap-5">
+            <!--Room -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/rooms.svg" />
+              </div>
+              <p class="text-[#4F3527]">4 Rooms</p>
+            </div>
+            <!-- Size -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/size.svg"/>
+              </div>
+              <p class="text-[#4F3527]">3,500 sq ft</p>
+            </div>
+          </div>
+          <!-- Price -->
+          <div class="flex items-center justify-between">
+            <button class="bg-[#2B1B12] text-white rounded px-4 py-1 text-[1rem] font-['Montserrat']">Sign up</button>
+            <p class="font-bold text-[#4F3527]">$2,500,000</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="lg:w-[25%]">
+        <!-- img -->
+        <div>
+          <img src="/Assets/Beverly-Hills.svg" alt="Beverly-Hills-Home" />
+        </div>
+        <!-- info -->
+        <div class="bg-[#DDC7BB] flex flex-col gap-4 p-4">
+          <!-- location -->
+          <div class="flex items-center gap-2">
+            <img src="/Assets/pin.svg"/>
+            <p class="font-['Montserrat'] font-bold text-[#2B1B12]">Beverly-Hills, California</p>
+          </div>
+          <!-- Room size -->
+          <div class="flex gap-5">
+            <!--Room -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/rooms.svg" />
+              </div>
+              <p class="text-[#4F3527]">3 Rooms</p>
+            </div>
+            <!-- Size -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/size.svg"/>
+              </div>
+              <p class="text-[#4F3527]">1,500 sq ft</p>
+            </div>
+          </div>
+          <!-- Price -->
+          <div class="flex items-center justify-between">
+            <button class="bg-[#2B1B12] text-white rounded px-4 py-1 text-[1rem] font-['Montserrat']">Sign up</button>
+            <p class="font-bold text-[#4F3527]">$850,000</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="lg:w-[25%]">
+        <!-- img -->
+        <div>
+          <img src="/Assets/Palo-Alto.svg" alt="Palo-Alto" />
+        </div>
+        <!-- info -->
+        <div class="bg-[#DDC7BB] flex flex-col gap-4 p-4">
+          <!-- location -->
+          <div class="flex items-center gap-2">
+            <img src="/Assets/pin.svg"/>
+            <p class="font-['Montserrat'] font-bold text-[#2B1B12]">Palo Alto, California</p>
+          </div>
+          <!-- Room size -->
+          <div class="flex gap-5">
+            <!--Room -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/rooms.svg" />
+              </div>
+              <p class="text-[#4F3527]">6 Rooms</p>
+            </div>
+            <!-- Size -->
+            <div class="flex gap-2">
+              <div class="bg-white rounded">
+                <img src="/Assets/size.svg"/>
+              </div>
+              <p class="text-[#4F3527]">4,000 sq ft</p>
+            </div>
+          </div>
+          <!-- Price -->
+          <div class="flex items-center justify-between">
+            <button class="bg-[#2B1B12] text-white rounded px-4 py-1 text-[1rem] font-['Montserrat']">Sign up</button>
+            <p class="font-bold text-[#4F3527]">$3,700,000</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </section>
+    
   </body>
 </html>
