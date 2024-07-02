@@ -1,5 +1,5 @@
 <h1>Real Estate Website</h1>
-<p>This is web page for a real estate organization. It allows potential clients find houses according to the budgets and preferred neighborhoods.</p>
+<p>This is web page for a real estate organization. It allows potential clients find houses within their budgets and preferred neighborhoods.</p>
 <p>Here's a link to host the web page on various screen sizes https://my-dream-house.netlify.app</p>
 
 <h1>Concepts Learned</h1>
